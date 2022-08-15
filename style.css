@@ -1,0 +1,172 @@
+/*
+Theme Name: My Theme
+Author: Ali
+Author URI: http://www.ali.com/tutorials
+Description: My first responsive HTML5 theme
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+
+.my-logo,
+footer {
+  width: 99.60%;
+  background-color: #78baff;
+  border: 1px solid #78baff;
+}
+body > header > h1 > a {
+  color: #ffffff;
+  font-weight: 400;
+}
+article > header {
+}
+footer {
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+}
+/* 'Margin: 0 auto' centers block content on the page */
+.wrap {
+  width: 99%;
+  margin: 0 auto;
+}
+.content-area {
+  display: inline-block;
+}
+.content-thin {
+    width: 70%;
+}
+.content-full-width {
+    width: 100%;
+}
+.content-area,
+.primary-sidebar {
+  display: inline-block;
+}
+.article-loop {
+    width: 45%;
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+}
+.article-full {
+  width: 99%;
+  padding: 1%;
+}
+.article-loop,
+.article-full {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  background-color: #CECECE;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  width: 50%;
+}
+.articles-loop,
+.article-full {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  background-color: #CECECE;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  width: 140%;
+}
+.articles-loop,
+.articls-full {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  background-color: #CECECE;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  width: 100%;
+}
+.articles-loop {
+	margin-top: 10px;
+	float: left;
+	width: 45%;
+	margin-left: 4px;
+}
+#menu-my-custom-menue {
+	list-style: none;
+  display: block ruby;
+  margin-top: 30px;
+	margin-left: 50px;
+  text-decoration: none;
+}
+#menu-item-272 a {
+	margin-left: 10px;
+	color: #fff;
+	font-size: 20px;
+	text-transform: capitalize;
+  text-decoration: none;
+}
+
+#menu-item-267 a {
+	margin-left: 10px;
+	color: #fff;
+	font-size: 20px;
+	text-transform: capitalize;
+  text-decoration: none;
+
+}
+#menu-item-271 a {
+	margin-left: 10px;
+	color: #fff;
+	font-size: 20px;
+	text-transform: capitalize;
+  text-decoration: none;
+
+}
+
+#menu-item-272 a:hover{
+	border-bottom: 2px solid #fff;
+}
+#menu-item-267 a:hover{
+	border-bottom: 2px solid #fff;
+}
+#menu-item-271 a:hover{
+	border-bottom: 2px solid #fff;
+}
+
+.sizing a {
+	margin-left: 10px;
+	color: #fff;
+  text-decoration: none;
+}
+.sizing a:hover {
+  color: #fff;
+}
+
+
+.display-flex {
+	display: flex;
+	background-color: #78BAFF;
+}
+
+.articles-loop h2 a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #000;
+}
+.articles-loop h2 a:hover {
+   color: blue;
+}
+
+
+@media screen and (max-width: 800px) {
+  .article-loop {
+    width: 99%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .content-area,
+  .primary-sidebar {
+    width: 100%;
+  }
+}
