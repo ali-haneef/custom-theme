@@ -1,5 +1,5 @@
 /*
-Theme Name: My Theme
+Theme Name: MyTheme
 Author: Ali
 Author URI: http://www.ali.com/tutorials
 Description: My first responsive HTML5 theme
@@ -15,12 +15,12 @@ footer {
   background-color: #78baff;
   border: 1px solid #78baff;
 }
-body > header > h1 > a {
+
+body  header  h1  a {
   color: #ffffff;
   font-weight: 400;
 }
-article > header {
-}
+
 footer {
   margin-top: 10px;
 }
@@ -155,6 +155,21 @@ a {
 }
 .articles-loop h2 a:hover {
    color: blue;
+}
+
+.menu ul {
+  display: block ruby;
+list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 23px;
+  margin-left: 5px;
+}
+.menu ul li a:hover {
+  border-bottom: 2px solid #fff;
 }
 
 

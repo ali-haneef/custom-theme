@@ -10,12 +10,12 @@
    <?php wp_head(); ?>
  </head>
  <body <?php body_class(); ?>>
-  <div class="display-flex">
-   <h1 class="sizing"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo('name'); ?></a></h1>
-  <?php
-      wp_nav_menu( array( 
+    <div class="display-flex">
+      <h1 class="sizing"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo('name'); ?></a></h1>
+      <?php
+        wp_nav_menu( array( 
           'theme_location' => 'my-custom-menu', 
           'container_class' => 'custom-menu-class' ) ); 
       ?>
     </div>
-</body>
+  </body>
